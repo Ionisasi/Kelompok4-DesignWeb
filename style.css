@@ -1,0 +1,466 @@
+.halaman-utama,
+.halaman-utama * {
+  box-sizing: border-box;
+}
+.halaman-utama {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.nav-bar {
+  background: rgba(78, 163, 223, 0.71);
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 90px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.main-logo {
+  flex-shrink: 0;
+  width: 107px;
+  height: 79px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 107/79;
+}
+.frame-7 {
+  padding: 10px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.beranda {
+  color: #0a1d69;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.beranda:hover {
+  color: #00156b;
+}
+
+.edukasi {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.edukasi:hover {
+  color: #00156b;
+}
+
+.kisah-inspirasi {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.kisah-inspirasi:hover {
+  color: #00156b;
+}
+
+.tentang-kami {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.tentang-kami:hover {
+  color: #00156b;
+}
+
+.kontak {
+  color: #fdf5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.kontak:hover {
+  color: #00156b;
+}
+
+.hero-section {
+  padding: 23px 202px 23px 202px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 507px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+}
+.hero-title {
+  color: #00156b;
+  text-align: center;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  width: 742px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-sub {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-8 {
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.what-we-do {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+.what-we-do-sub {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.card-frame {
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.edukasi-masyarakat-card {
+  background: #7ce1f8;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 515px;
+  position: relative;
+  overflow: hidden;
+}
+.icon-edukasi {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group {
+  width: 70.83%;
+  height: 79.17%;
+  position: absolute;
+  right: 14.58%;
+  left: 14.58%;
+  bottom: 10.42%;
+  top: 10.42%;
+  overflow: visible;
+}
+.teks-edukasi {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.content-edukasi {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.cek-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.cek-text:hover {
+  color: #00156b;
+}
+.arrow-icon {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.arrow {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.f-7-chat-bubble-2-fill {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.arrow2 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.aksesibel-card {
+  background: #7ce1f8;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 515px;
+  position: relative;
+  overflow: hidden;
+}
+.globe-icon {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.teks-aksesibel {
+  color: #000000;
+  text-align: center;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.content-aksesibel {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.footer {
+  background: #0a1d69;
+  padding: 50px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 355px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 314px;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+}
+.alamat-dan-kontak {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+}
+.alamat-frame {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-location {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.tempat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.no-hp-1-frame {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.mynaui-telephone-solid {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.nomor-hp-1 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.no-hp-2-frame {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 304px;
+  position: relative;
+}
+.mynaui-telephone-solid2 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.nomor-hp-2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-5 {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ic-baseline-email {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
