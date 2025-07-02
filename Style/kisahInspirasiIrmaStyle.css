@@ -240,3 +240,77 @@
   font-weight: 400;
   position: relative;
 }
+
+@media (max-width: 1200px) {
+  .judul-irma,
+  .profil,
+  .headline-2-irma,
+  .pesan-irma {
+    font-size: 36px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .judul-irma,
+  .profil,
+  .headline-2-irma,
+  .pesan-irma {
+    font-size: 28px;
+  }
+  .frame-img {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .irma-suyanti-img {
+    width: 50%;
+    height: 50%;
+  }
+  .frame-profil,
+  .frame-headline-1-irma,
+  .frame-headline-2-irma,
+  .frame-pesan-irma {
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 600px) {w
+  .judul-irma,
+  .profil,
+  .headline-2-irma,
+  .pesan-irma {
+    font-size: 20px;
+    width: 100%;
+  }
+  .frame-img {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .irma-suyanti-img {
+    width: 45%;
+    height: 45%;
+    border-radius: 10px;
+  }
+  .frame-profil,
+  .frame-headline-1-irma,
+  .frame-headline-2-irma,
+  .frame-pesan-irma {
+    padding: 10px 5px;
+  }
+  .headline-2-irma-content,
+  .headline-2-irma-content2,
+  .pesan-irma-content,
+  .profil-jelas {
+    font-size: 16px;
+  }
+  .tombol-kembali {
+    padding: 6px 16px;
+  }
+  .kembali {
+    font-size: 20px;
+  }
+  .halaman-kisah-inspirasi {
+    padding-bottom: 5px;
+    gap: 5px;
+  }
+}

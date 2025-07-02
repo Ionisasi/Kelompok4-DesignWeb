@@ -16,13 +16,17 @@
   overflow: hidden;
   padding-bottom: 10px;
 }
+.frame-tittle-edukasi,
+.frame-tittle-edukasi * {
+  box-sizing: border-box;
+}
 .frame-tittle-edukasi {
-  padding: 40px 10px 0px 10px;
+  padding: 40px 100px 40px 100px;
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
@@ -35,8 +39,7 @@
   font-size: 32px;
   font-weight: 800;
   position: relative;
-  width: 1082px;
-  height: 103px;
+  align-self: stretch;
 }
 .list {
   padding: 0px 40px 40px 40px;
@@ -174,7 +177,7 @@
 }
 .tunarungu {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Gloock-Regular", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -215,7 +218,7 @@
 }
 .tunadaksa {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Gloock-Regular", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -296,7 +299,7 @@
 }
 .bersahabat {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font-family: "Gloock-Regular", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -321,12 +324,13 @@
   aspect-ratio: 1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .list {
     grid-template-columns: 1fr;
     grid-template-rows: none;
     row-gap: 30px;
     gap: 30px;
+    padding: 0px 30px 30px 30px;
   }
   .frame-autisme,
   .frame-tunanetra,
@@ -338,9 +342,56 @@
     grid-row: auto;
     width: 100%;
   }
+}
+
+@media (max-width: 900px) {
+  .list {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    gap: 30px;
+  }
+  .frame-autisme,
+  .frame-tunanetra,
+  .frame-tunarungu,
+  .frame-tunadaksa,
+  .frame-tunalaras,
+  .frame-bersahabat {
+    width: 100%;
+  }
   .tittle-edukasi {
     width: 100%;
     font-size: 24px;
     height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .frame-tittle-edukasi {
+    padding: 20px 10px 20px 10px;
+  }
+  .list {
+    padding: 0px 30px 20px 30px;
+    gap: 20px;
+  }
+  .frame-autisme,
+  .frame-tunanetra,
+  .frame-tunarungu,
+  .frame-tunadaksa,
+  .frame-tunalaras,
+  .frame-bersahabat {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+  }
+  .tittle-edukasi {
+    font-size: 18px;
+  }
+  .desk-autisme,
+  .desk-tunanetra,
+  .desk-tunarungu,
+  .desk-tunadaksa,
+  .desk-tunalaras,
+  .desk-bersahabat {
+    font-size: 16px;
   }
 }

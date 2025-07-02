@@ -208,3 +208,50 @@
   font-weight: 400;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .tunarungu {
+    font-size: 72px;
+  }
+  .definisi-tunarungu,
+  .tantangan-tunarungu,
+  .dukungan-tunarungu {
+    font-size: 32px;
+  }
+  .definisi-tunarungu-jelas,
+  .tantangan-tunarungu-jelas,
+  .dukungan-tunarungu-jelas {
+    font-size: 20px;
+  }
+  .frame-definisi-tunarungu,
+  .frame-tantangan-tunarungu,
+  .frame-dukungan-tunarungu {
+    padding: 16px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tunarungu {
+    font-size: 36px;
+  }
+  .definisi-tunarungu,
+  .tantangan-tunarungu,
+  .dukungan-tunarungu {
+    font-size: 20px;
+  }
+  .definisi-tunarungu-jelas,
+  .tantangan-tunarungu-jelas,
+  .dukungan-tunarungu-jelas {
+    font-size: 14px;
+  }
+  .frame-definisi-tunarungu,
+  .frame-tantangan-tunarungu,
+  .frame-dukungan-tunarungu {
+    padding: 10px 8px;
+  }
+  .tombol-kembali {
+    padding: 6px 16px;
+  }
+  .kembali {
+    font-size: 20px;
+  }
+}

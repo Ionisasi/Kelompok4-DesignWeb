@@ -11,7 +11,6 @@
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
-  
 }
 .beranda {
   color: #00156b;
@@ -378,66 +377,96 @@
   font-weight: 400;
   position: relative;
 }
-
-@media (max-width: 768px) {
-  .main-logo {
-    width: 60px;
-    height: 40px;
+@media (max-width: 1200px) {
+  .hero-title {
+    font-size: 48px;
+    width: 100%;
+    max-width: 600px;
   }
   .hero-section {
-    padding: 20px 10px;
-    height: 300px;
+    padding: 23px 40px;
+    height: auto;
   }
+  .card-frame {
+    padding: 0 40px;
+    gap: 30px;
+  }
+  .footer {
+    padding: 50px 40px;
+  }
+}
+
+@media (max-width: 900px) {
   .hero-title {
-    font-size: 32px;
-    width: 100%;
-    min-width: 0;
-    padding: 0 10px;
+    font-size: 36px;
+    max-width: 100%;
   }
-  .hero-sub {
-    font-size: 20px;
-    padding: 0 10px;
-  }
-  .frame-8 {
-    padding: 30px 0;
-    gap: 10px;
-  }
+  .hero-sub,
   .what-we-do {
-    font-size: 24px;
+    font-size: 28px;
   }
   .what-we-do-sub {
-    font-size: 18px;
+    font-size: 22px;
   }
   .card-frame {
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
     padding: 0 10px;
   }
   .edukasi-masyarakat-card,
   .aksesibel-card {
     width: 100%;
-    min-width: 0;
-    padding: 10px;
-  }
-  .teks-edukasi,
-  .teks-aksesibel {
-    font-size: 24px;
-    text-align: center;
-  }
-  .content-edukasi,
-  .content-aksesibel {
-    font-size: 16px;
+    max-width: 400px;
   }
   .footer {
-    padding: 30px 10px;
+    flex-direction: column;
     height: auto;
+    padding: 30px 10px;
   }
   .frame-4 {
     width: 100%;
     height: auto;
   }
-  .alamat-dan-kontak {
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 16px 5vw;
+    height: 300px;
+  }
+  .hero-title {
+    font-size: 24px;
+    padding: 0 5vw;
+  }
+  .hero-sub {
+    font-size: 18px;
+  }
+  .what-we-do {
     font-size: 20px;
+  }
+  .what-we-do-sub {
+    font-size: 16px;
+  }
+  .edukasi-masyarakat-card,
+  .aksesibel-card {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 10px 5vw;
+  }
+  .teks-edukasi,
+  .teks-aksesibel {
+    font-size: 20px;
+  }
+  .content-edukasi,
+  .content-aksesibel {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 20px 5vw;
+    height: auto;
+  }
+  .alamat-dan-kontak {
+    font-size: 18px;
   }
   .alamat-frame,
   .no-hp-1-frame,
@@ -445,20 +474,20 @@
   .frame-5 {
     flex-direction: column;
     align-items: flex-start;
-    gap: 5px;
+    gap: 4px;
     padding: 0;
   }
   .mdi-location,
   .mynaui-telephone-solid,
   .mynaui-telephone-solid2,
   .ic-baseline-email {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 24px;
   }
   .tempat,
   .nomor-hp-1,
   .nomor-hp-2,
   .email {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
