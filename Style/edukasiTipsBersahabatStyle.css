@@ -1,0 +1,100 @@
+.halaman-edukasi-tips-bersahabat,
+.halaman-edukasi-tips-bersahabat * {
+  box-sizing: border-box;
+}
+.halaman-edukasi-tips-bersahabat {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.beranda {
+  color: #0a1d69;
+}
+.bersahabat-hero-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 331px;
+  position: relative;
+  overflow: hidden;
+}
+.bersahabat {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 128px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-title-bershabat {
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.title-bershabat {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+}
+.frame-bersahabat-content {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.bersahabat-content {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.tombol-kembali {
+  background: #0a1d69;
+  border-radius: 50px;
+  padding: 8px 32px 8px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.kembali {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+}
