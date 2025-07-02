@@ -12,21 +12,6 @@
   position: relative;
   overflow: hidden;
 }
-.nav-bar {
-  background: rgba(78, 163, 223, 0.71);
-  padding: 20px 60px 20px 60px;
-  display: flex;
-  flex-direction: row;
-  gap: 45px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 90px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
 .main-logo {
   flex-shrink: 0;
   width: 107px;
@@ -463,4 +448,88 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .main-logo {
+    width: 60px;
+    height: 40px;
+  }
+  .hero-section {
+    padding: 20px 10px;
+    height: 300px;
+  }
+  .hero-title {
+    font-size: 32px;
+    width: 100%;
+    min-width: 0;
+    padding: 0 10px;
+  }
+  .hero-sub {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  .frame-8 {
+    padding: 30px 0;
+    gap: 10px;
+  }
+  .what-we-do {
+    font-size: 24px;
+  }
+  .what-we-do-sub {
+    font-size: 18px;
+  }
+  .card-frame {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .edukasi-masyarakat-card,
+  .aksesibel-card {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+  }
+  .teks-edukasi,
+  .teks-aksesibel {
+    font-size: 24px;
+    text-align: center;
+  }
+  .content-edukasi,
+  .content-aksesibel {
+    font-size: 16px;
+  }
+  .footer {
+    padding: 30px 10px;
+    height: auto;
+  }
+  .frame-4 {
+    width: 100%;
+    height: auto;
+  }
+  .alamat-dan-kontak {
+    font-size: 20px;
+  }
+  .alamat-frame,
+  .no-hp-1-frame,
+  .no-hp-2-frame,
+  .frame-5 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 0;
+  }
+  .mdi-location,
+  .mynaui-telephone-solid,
+  .mynaui-telephone-solid2,
+  .ic-baseline-email {
+    width: 28px;
+    height: 28px;
+  }
+  .tempat,
+  .nomor-hp-1,
+  .nomor-hp-2,
+  .email {
+    font-size: 14px;
+  }
 }

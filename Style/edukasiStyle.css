@@ -1,0 +1,398 @@
+.halaman-edukasi,
+.halaman-edukasi * {
+  box-sizing: border-box;
+}
+.halaman-edukasi {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-logo {
+  flex-shrink: 0;
+  width: 107px;
+  height: 79px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 107/79;
+}
+.frame-7 {
+  padding: 10px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.beranda {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.edukasi {
+  color: #0a1d69;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.kisah-inspirasi {
+  color: #fffbfb;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.tentang-kami {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.kontak {
+  color: #fdf5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-tittle-edukasi {
+  padding: 40px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.tittle-edukasi {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  position: relative;
+  width: 1082px;
+  height: 103px;
+}
+.list {
+  padding: 0px 40px 40px 40px;
+  align-self: stretch;
+  flex: 1;
+  display: grid;
+  gap: 50px;
+  row-gap: 30px;
+  position: relative;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.frame-autisme {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.autisme {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-autisme {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.more-button {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.material-symbols-arrow-right {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-tunanetra {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.tunatetra {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-tunanetra {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.material-symbols-arrow-right2 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-tunarungu {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.tunarungu {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-tunarungu {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.material-symbols-arrow-right3 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-tunadaksa {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.tunadaksa {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-tunadaksa {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.material-symbols-arrow-right4 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-tunalaras {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.tunalaras {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-tunalaras {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.material-symbols-arrow-right5 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.frame-bersahabat {
+  background: #ebc676;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 257.5px;
+  position: relative;
+  overflow: hidden;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+.bersahabat {
+  color: #000000;
+  text-align: left;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+}
+.desk-bersahabat {
+  color: #000000;
+  text-align: center;
+  font-family: "Inder-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+}
+.material-symbols-arrow-right6 {
+  flex-shrink: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+@media (max-width: 900px) {
+  .list {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    row-gap: 30px;
+    gap: 30px;
+  }
+  .frame-autisme,
+  .frame-tunanetra,
+  .frame-tunarungu,
+  .frame-tunadaksa,
+  .frame-tunalaras,
+  .frame-bersahabat {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+  }
+  .tittle-edukasi {
+    width: 100%;
+    font-size: 24px;
+    height: auto;
+  }
+}
