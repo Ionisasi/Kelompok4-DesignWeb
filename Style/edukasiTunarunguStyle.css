@@ -1,8 +1,8 @@
-.halaman-edukasi-autisme,
-.halaman-edukasi-autisme * {
+.halaman-edukasi-tunarungu,
+.halaman-edukasi-tunarungu * {
   box-sizing: border-box;
 }
-.halaman-edukasi-autisme {
+.halaman-edukasi-tunarungu {
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,9 @@
   padding-bottom: 10px;
 }
 .edukasi {
-  color: #00156b;
+  color: #0a1d69;
 }
-.autisme-hero-card {
+.tunarungu-hero-card {
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -28,7 +28,7 @@
   position: relative;
   overflow: hidden;
 }
-.autisme {
+.tunarungu {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Bold", sans-serif;
@@ -36,7 +36,7 @@
   font-weight: 700;
   position: relative;
 }
-.autisme-1-frame {
+.frame-definisi-tunarungu {
   padding: 20px 50px 20px 50px;
   display: flex;
   flex-direction: column;
@@ -48,7 +48,7 @@
   position: relative;
   overflow: hidden;
 }
-.definisi-autisme {
+.definisi-tunarungu {
   color: #000000;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -56,7 +56,7 @@
   font-weight: 700;
   position: relative;
 }
-.frame-jelas-autisme {
+.frame-definisi-tunarungu-jelas {
   padding: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@
   position: relative;
   overflow: hidden;
 }
-.jelas-autisme {
+.definisi-tunarungu-jelas {
   color: #000000;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
@@ -77,7 +77,7 @@
   position: relative;
   align-self: stretch;
 }
-.tantangan-autisme-frame {
+.frame-tantangan-tunarungu {
   padding: 20px 50px 20px 50px;
   display: flex;
   flex-direction: column;
@@ -89,7 +89,7 @@
   position: relative;
   overflow: hidden;
 }
-.tantangan-autisme {
+.tantangan-tunarungu {
   color: #000000;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -97,7 +97,7 @@
   font-weight: 700;
   position: relative;
 }
-.frame-tantangan-autisme-jelas {
+.frame-tantangan-tunarungu-jelas {
   padding: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@
   position: relative;
   overflow: hidden;
 }
-.tantangan-autisme-jelas {
+.tantangan-tunarungu-jelas {
   color: #000000;
   text-align: left;
   font-family: "-", sans-serif;
@@ -118,21 +118,21 @@
   position: relative;
   align-self: stretch;
 }
-.tantangan-autisme-jelas-span {
+.tantangan-tunarungu-jelas-span {
   font-family: "Inter-Regular", sans-serif;
 }
-.tantangan-autisme-jelas-span2 {
+.tantangan-tunarungu-jelas-span2 {
   list-style-type: disc;
   padding-left: 1em;
   font-family: "Inter-Bold", sans-serif;
   font-weight: 700;
 }
-.tantangan-autisme-jelas-span3 {
+.tantangan-tunarungu-jelas-span3 {
   list-style-type: disc;
   padding-left: 1em;
   font-family: "Inter-Regular", sans-serif;
 }
-.dukungan-autisme-frame {
+.frame-dukungan-tunarungu {
   padding: 20px 50px 20px 50px;
   display: flex;
   flex-direction: column;
@@ -144,7 +144,7 @@
   position: relative;
   overflow: hidden;
 }
-.dukungan-autisme {
+.dukungan-tunarungu {
   color: #000000;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -152,7 +152,7 @@
   font-weight: 700;
   position: relative;
 }
-.frame-dukungan-autismejelas {
+.frame-dukungan-tunarungu-jelas {
   padding: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@
   position: relative;
   overflow: hidden;
 }
-.dukungan-autisme-jelas {
+.dukungan-tunarungu-jelas {
   color: #000000;
   text-align: left;
   font-family: "-", sans-serif;
@@ -173,16 +173,16 @@
   position: relative;
   align-self: stretch;
 }
-.dukungan-autisme-jelas-span {
+.dukungan-tunarungu-jelas-span {
   font-family: "Inter-Regular", sans-serif;
 }
-.dukungan-autisme-jelas-span2 {
+.dukungan-tunarungu-jelas-span2 {
   list-style-type: disc;
   padding-left: 1em;
   font-family: "Inter-Bold", sans-serif;
   font-weight: 700;
 }
-.dukungan-autisme-jelas-span3 {
+.dukungan-tunarungu-jelas-span3 {
   list-style-type: disc;
   padding-left: 1em;
   font-family: "Inter-Regular", sans-serif;

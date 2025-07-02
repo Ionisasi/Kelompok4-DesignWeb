@@ -9,9 +9,9 @@
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  height: 1266px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 .edukasi {
   color: #0a1d69;
