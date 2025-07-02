@@ -1,7 +1,6 @@
 /* === Navbar Styles === */
 .nav-bar {
   position: sticky;
-  top: 0;
   background: rgba(116, 183, 231); /* Biru muda transparan */
   padding: 20px 60px;
   display: flex;
@@ -16,8 +15,8 @@
 
 /* Logo Utama */
 .main-logo {
-  width: 107px;
-  height: 79px;
+  width: 80px;
+  height: 60px;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -79,8 +78,8 @@
 /* Responsif - Tampilkan Burger di Layar Kecil */
 @media (max-width: 992px) {
   .main-logo {
-    width: 80px; 
-    height: 60px;
+    width: 60px; 
+    height: 40px;
   }
 
   .burger-btn {
