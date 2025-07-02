@@ -1,5 +1,7 @@
 .nav-bar {
-  background: rgba(78, 163, 223, 0.71);
+  position: sticky;
+  top: 0;
+  background: rgba(116, 183, 231);
   padding: 20px 60px 20px 60px;
   display: flex;
   flex-direction: row;
@@ -9,8 +11,6 @@
   align-self: stretch;
   flex-shrink: 0;
   height: 90px;
-  position: sticky;
-  top: 0;
   z-index: 1000;
 }
 .main-logo {

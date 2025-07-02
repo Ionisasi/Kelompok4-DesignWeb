@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./Style/navbar.css"/>  
-  <link rel="stylesheet" href="./Style/edukasiTunalarasStyle.css">  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Style/navbar.css" />
+  <link rel="stylesheet" href="./Style/edukasiSubStyle.css" />
   <style>
     a,
     button,
@@ -17,26 +17,28 @@
     h4,
     h5,
     * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        background: none;
-    
-        -webkit-font-smoothing: antialiased;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
+      -webkit-font-smoothing: antialiased;
     }
-    
-    menu, ol, ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
   </style>
-  <title>Document</title>
+  <title>Edukasi Tunalaras</title>
 </head>
 <body>
-  <div class="halaman-edukasi-tunalaras">
+  <div class="page-container">
+
+    <!-- Navbar -->
     <div class="nav-bar">
       <img class="main-logo" src="Asset/main-logo0.png" />
       <div class="frame-7"></div>
@@ -46,113 +48,51 @@
       <a class="tentang-kami" href="about.html">Tentang Kami</a>
       <a class="kontak" href="kontak.html">Kontak</a>
     </div>
-    <div
-      class="tunalaras-hero-card"
+
+    <!-- Hero Section -->
+    <div class="hero-section"
       style="
         background: url(./Asset/tunalaras-hero-card0.png) center;
         background-size: cover;
-        background-repeat: no-repeat;
-      "
-    >
-      <div class="tunalaras">TUNALARAS</div>
+        background-repeat: no-repeat;">
+      <div class="hero-title">TUNALARAS</div>
     </div>
-    <div class="frame-definisi-tunalaras">
-      <div class="definisi-tunalaras">Apa itu Tunalaras?</div>
-      <div class="frame-definisi-tunalaras-jelas">
-        <div class="definisi-tunalaras-jelas">
-          Tunalaras adalah kondisi di mana seseorang mengalami gangguan dalam
-          kesehatan mental, yang dapat mempengaruhi cara berpikir, merasakan, dan
-          berperilaku. Ini bisa mencakup berbagai kondisi, seperti depresi,
-          kecemasan, atau gangguan bipolar.
-        </div>
+
+    <!-- Apa itu Tunalaras? -->
+    <div class="content-section">
+      <div class="section-title">Apa itu Tunalaras?</div>
+      <div class="section-text">
+        Tunalaras adalah kondisi di mana seseorang mengalami gangguan dalam kesehatan mental,
+        yang dapat mempengaruhi cara berpikir, merasakan, dan berperilaku. Ini bisa mencakup berbagai
+        kondisi, seperti depresi, kecemasan, atau gangguan bipolar.
       </div>
     </div>
-    <div class="frame-tantangan-tunalaras">
-      <div class="tantangan-tunalaras">Tantangan yang dihadapi:</div>
-      <div class="frame-tantangan-tunalaras-jelas">
-        <div class="tantangan-tunalaras-jelas">
-          <span>
-            <span class="tantangan-tunalaras-jelas-span">
-              Orang dengan tunalaras sering menghadapi berbagai tantangan dalam
-              kehidupan sehari-hari,seperti:
-              <br />
-            </span>
-            <ul class="tantangan-tunalaras-jelas-span2">
-              <li>Kesulitan Berkomunikasi:</li>
-            </ul>
-            <ul class="tantangan-tunalaras-jelas-span3">
-              <li>
-                Mereka mungkin mengalami kesulitan dalam mengekspresikan perasaan
-                atau pikiran,yang dapat menghambat interaksi sosial.
-              </li>
-            </ul>
-            <ul class="tantangan-tunalaras-jelas-span2">
-              <li>Isolasi Sosial:</li>
-            </ul>
-            <ul class="tantangan-tunalaras-jelas-span3">
-              <li>
-                Banyak yang merasa terasing atau tidak dipahami oleh orang-orang
-                di sekitarnya, yang dapat memperburuk kondisi mereka.
-              </li>
-            </ul>
-            <ul class="tantangan-tunalaras-jelas-span2">
-              <li>Stigma Sosial:</li>
-            </ul>
-            <ul class="tantangan-tunalaras-jelas-span3">
-              <li>
-                Stigma terhadap masalah kesehatan mental sering kali membuat orang
-                dengan tunalaras merasa tidak nyaman untuk mencari bantuan atau
-                berbicara tentang pengalaman mereka.
-              </li>
-            </ul>
-          </span>
-        </div>
-      </div>
+
+    <!-- Tantangan yang Dihadapi -->
+    <div class="content-section">
+      <div class="section-title">Tantangan yang Dihadapi:</div>
+      <ul class="feature-list">
+        <li><strong>Kesulitan Berkomunikasi:</strong> Mereka mungkin kesulitan mengekspresikan pikiran atau perasaan.</li>
+        <li><strong>Isolasi Sosial:</strong> Merasa terasing karena tidak dipahami oleh lingkungan sosial mereka.</li>
+        <li><strong>Stigma Sosial:</strong> Masih banyak prasangka terhadap masalah kesehatan mental yang membuat mereka ragu mencari bantuan.</li>
+      </ul>
     </div>
-    <div class="frame-dukungan-tunalaras">
-      <div class="dukungan-tunalaras">Dukungan yang dibutuhkan:</div>
-      <div class="frame-dukungan-tunalaras-jelas">
-        <div class="dukungan-tunalaras-jelas">
-          <span>
-            <span class="dukungan-tunalaras-jelas-span">
-              Untuk membantu tunalaras,ada beberapa dukungan yang bisa diberikan:
-              <br />
-            </span>
-            <ul class="dukungan-tunalaras-jelas-span2">
-              <li>Edukasi Masyarakat:</li>
-            </ul>
-            <ul class="dukungan-tunalaras-jelas-span3">
-              <li>
-                Meningkatkan pemahaman tentang kesehatan mental untuk mengurangi
-                stigma dan mendukung mereka yang mengalami masalah.
-              </li>
-            </ul>
-            <ul class="dukungan-tunalaras-jelas-span2">
-              <li>Akses ke Terapi:</li>
-            </ul>
-            <ul class="dukungan-tunalaras-jelas-span3">
-              <li>
-                Memastikan mereka memiliki akses ke layanan kesehatan mental,
-                seperti terapi atau konseling.
-              </li>
-            </ul>
-            <ul class="dukungan-tunalaras-jelas-span2">
-              <li>Ruang Aman:</li>
-            </ul>
-            <ul class="dukungan-tunalaras-jelas-span3">
-              <li>
-                Menciptakan lingkungan yang aman dan mendukung untuk berbagi
-                pengalaman dan perasaan.
-              </li>
-            </ul>
-          </span>
-        </div>
-      </div>
+
+    <!-- Dukungan yang Dibutuhkan -->
+    <div class="content-section">
+      <div class="section-title">Dukungan yang Dibutuhkan:</div>
+      <ul class="feature-list">
+        <li><strong>Edukasi Masyarakat:</strong> Untuk mengurangi stigma dan meningkatkan pemahaman tentang kesehatan mental.</li>
+        <li><strong>Akses ke Terapi:</strong> Pastikan mereka bisa mendapatkan layanan konseling atau psikolog profesional.</li>
+        <li><strong>Ruang Aman:</strong> Ciptakan lingkungan yang mendukung untuk berbagi pengalaman tanpa rasa takut.</li>
+      </ul>
     </div>
-    <div class="tombol-kembali">
-      <a class="kembali" href="edukasi.html">KEMBALI</a>
+
+    <!-- Tombol Kembali -->
+    <div class="action-button">
+      <a class="btn-back" href="edukasi.html">KEMBALI</a>
     </div>
+    <div style="height: 40px;"></div>
   </div>
-  
 </body>
 </html>

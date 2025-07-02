@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./style/navbar.css"/>
-  <link rel="stylesheet" href="./Style/edukasiAutismeStyle.css"/>
+  <link rel="stylesheet" href="./Style/edukasiSubStyle.css"/>
   <style>
     a,
     button,
@@ -34,7 +34,9 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="halaman-edukasi-autisme">
+  <div class="page-container">
+    
+    <!-- Navbar -->
     <div class="nav-bar">
       <img class="main-logo" src="Asset/main-logo0.png" />
       <div class="frame-7"></div>
@@ -44,110 +46,61 @@
       <a class="tentang-kami" href="about.html">Tentang Kami</a>
       <a class="kontak" href="kontak.html">Kontak</a>
     </div>
-    <div
-      class="autisme-hero-card"
+
+    <!-- Hero Section -->
+    <section class="hero-section"
       style="
         background: url(./Asset/autisme-hero-card0.png) center;
         background-size: cover;
         background-repeat: no-repeat;
-      "
-    >
-      <div class="autisme">AUTISME</div>
+      ">
+      <h1 class="hero-title">AUTISME</h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+      <h2 class="section-title">Apa itu Autisme?</h2>
+      <p class="section-text">
+        Autisme adalah gangguan perkembangan yang mempengaruhi cara seseorang
+        berkomunikasi dan berinteraksi dengan orang lain. Orang dengan autisme
+        mungkin memiliki cara berpikir, belajar, dan berperilaku yang berbeda.
+      </p>
+    </section>
+
+    <!-- Challenges Section -->
+    <section class="content-section">
+      <h2 class="section-title">Tantangan yang Dihadapi:</h2>
+      <p class="section-text">
+        Orang dengan autisme sering menghadapi beberapa tantangan dalam kehidupan sehari-hari, seperti:
+      </p>
+      <ul class="feature-list">
+        <li class="feature-item"><strong>Komunikasi:</strong> Sulitnya berbicara atau menunjukkan apa yang mereka mau/rasakan.</li>
+        <li class="feature-item"><strong>Sosial:</strong> Sulitnya bagi mereka berteman karena susahnya memahami isyarat orang lain.</li>
+        <li class="feature-item"><strong>Rutinitas:</strong> Mereka biasanya merasa sangat tidak nyaman dan stres jika ada perubahan dari kebiasaan mereka.</li>
+      </ul>
+    </section>
+
+    <!-- Support Section -->
+    <section class="content-section">
+      <h2 class="section-title">Dukungan yang Dibutuhkan:</h2>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <strong>Pendidikan Inklusif:</strong> Memberikan kesempatan pendidikan yang sesuai dengan kebutuhan mereka, termasuk pengajaran yang lebih individualistik.
+        </li>
+        <li class="feature-item">
+          <strong>Terapi dan Dukungan:</strong> Terapi berbicara dapat membantu mereka berkomunikasi dan berinteraksi lebih baik lagi.
+        </li>
+        <li class="feature-item">
+          <strong>Kesadaran Masyarakat:</strong> Mengedukasi orang lain tentang autisme agar bisa lebih memahami dan menerima mereka.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Back Button -->
+    <div class="action-button">
+      <a href="edukasi.html" class="btn-back">KEMBALI</a>
     </div>
-    <div class="autisme-1-frame">
-      <div class="definisi-autisme">Apa itu Autisme?</div>
-      <div class="frame-jelas-autisme">
-        <div class="jelas-autisme">
-          Autisme adalah gangguan perkembangan yang mempengaruhi cara seseorang
-          berkomunikasi dan berinteraksi dengan orang lain. Orang dengan autisme
-          mungkin memiliki cara berpikir, belajar, dan berperilaku yang berbeda.
-        </div>
-      </div>
-    </div>
-    <div class="tantangan-autisme-frame">
-      <div class="tantangan-autisme">Tantangan yang dihadapi:</div>
-      <div class="frame-tantangan-autisme-jelas">
-        <div class="tantangan-autisme-jelas">
-          <span>
-            <span class="tantangan-autisme-jelas-span">
-              Orang dengan autisme sering menghadapi beberapa tantangan dalam
-              kehidupan sehari-hari, seperti:
-              <br />
-            </span>
-            <ul class="tantangan-autisme-jelas-span2">
-              <li>Komunikasi:</li>
-            </ul>
-            <ul class="tantangan-autisme-jelas-span3">
-              <li>
-                Sulitnya berbicara atau menunjukkan apa yang mereka mau/rasakan.
-              </li>
-            </ul>
-            <ul class="tantangan-autisme-jelas-span2">
-              <li>Sosial:</li>
-            </ul>
-            <ul class="tantangan-autisme-jelas-span3">
-              <li>
-                Sulitnya bagi mereka berteman karena susahnya memahami isyarat
-                orang lain.
-              </li>
-            </ul>
-            <ul class="tantangan-autisme-jelas-span2">
-              <li>Rutinitas:</li>
-            </ul>
-            <ul class="tantangan-autisme-jelas-span3">
-              <li>
-                Mereka biasnya merasa sangat tidak nyaman dan stres jika,ada
-                perubahan dari kebiasaan mereka.
-              </li>
-            </ul>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="dukungan-autisme-frame">
-      <div class="dukungan-autisme">Dukungan yang dibutuhkan:</div>
-      <div class="frame-dukungan-autismejelas">
-        <div class="dukungan-autisme-jelas">
-          <span>
-            <span class="dukungan-autisme-jelas-span">
-              Ada beberapa cara untuk mendukung orang dengan autisme caranya
-              adalah sebagai berikut:
-              <br />
-            </span>
-            <ul class="dukungan-autisme-jelas-span2">
-              <li>Pendidikan Inklusif:</li>
-            </ul>
-            <ul class="dukungan-autisme-jelas-span3">
-              <li>
-                Memberikan kesempatan pendidikan yang sesuai dengan kebutuhan
-                mereka,termasuk pengajaran yang lebih individualisme.
-              </li>
-            </ul>
-            <ul class="dukungan-autisme-jelas-span2">
-              <li>Terapi dan Dukungan:</li>
-            </ul>
-            <ul class="dukungan-autisme-jelas-span3">
-              <li>
-                Terapi berbicara dapat membantu mereka berkomunikasi dan
-                berinteraksi lebih baik lagi.
-              </li>
-            </ul>
-            <ul class="dukungan-autisme-jelas-span2">
-              <li>Kesadaran Masyarakat:</li>
-            </ul>
-            <ul class="dukungan-autisme-jelas-span3">
-              <li>
-                Mengedukasi orang lain tentang autisme agar bisa lebih memahami
-                dan menerima mereka.
-              </li>
-            </ul>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="tombol-kembali">
-      <a class="kembali" href="edukasi.html">KEMBALI</a>
-    </div>
+    <div style="height: 40px;"></div>
   </div>
 </body>
 </html>
