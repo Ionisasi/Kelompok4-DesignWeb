@@ -40,16 +40,8 @@
   <div class="halaman-utama">
 
     <!-- Navbar -->
-    <div class="nav-bar">
-      <img class="main-logo" src="Asset/main-logo0.png" alt="Logo Utama" />
-      <div class="frame-7"></div>
-      <a class="beranda" href="halamanUtama.html">Beranda</a>
-      <a class="edukasi" href="edukasi.html">Edukasi</a>
-      <a class="kisah-inspirasi" href="kisahInspirasiIrma.html">Kisah Inspirasi</a>
-      <a class="tentang-kami" href="about.html">Tentang Kami</a>
-      <a class="kontak" href="kontak.html">Kontak</a>
-    </div>
-
+    <script src="./Script/navbar.js"></script>
+    <script src="./Script/menuBurger.js"></script>
     <!-- Hero Section -->
     <div class="hero-section"
       style="
@@ -71,12 +63,10 @@
       <!-- Card Frame -->
       <div class="card-frame">
         <!-- Edukasi Masyarakat -->
-        <div class="edukasi-masyarakat-card">
-          <div class="icon-edukasi">
-            <img class="group" src="Asset/group0.svg" alt="Ikon Edukasi" />
-          </div>
-          <div class="teks-edukasi">Edukasi Masyarakat</div>
-          <div class="content-edukasi">
+        <div class="card">
+          <img class="icon" src="Asset/group0.svg" alt="Ikon Edukasi" />
+          <div class="teks-card">Edukasi Masyarakat</div>
+          <div class="content-card">
             Menyediakan informasi akurat seputar jenis, hak, serta kebutuhan
             penyandang disabilitas untuk meningkatkan kesadaran masyarakat.
           </div>
@@ -87,29 +77,25 @@
         </div>
 
         <!-- Kisah Inspiratif -->
-        <div class="edukasi-masyarakat-card">
-          <img class="f-7-chat-bubble-2-fill" src="Asset/f-7-chat-bubble-2-fill0.svg" alt="Ikon Kisah" />
-          <div class="teks-edukasi">Kisah Inspiratif</div>
-          <div class="content-edukasi">
+        <div class="card">
+          <img class="icon" src="Asset/f-7-chat-bubble-2-fill0.svg" alt="Ikon Kisah" />
+          <div class="teks-card">Kisah Inspiratif</div>
+          <div class="content-card">
             Menampilkan kisah nyata penyandang disabilitas yang telah mengatasi
             tantangan hidup dan mencapai prestasi luar biasa, sebagai motivasi dan
             sumber empati bagi masyarakat.
           </div>
           <div class="frame-2">
             <a href="kisahInspirasiIrma.html" class="cek-text">Cek Selengkapnya</a>
-            <img class="arrow2" src="Asset/arrow0.svg" alt="Panah" />
+            <img class="arrow" src="Asset/arrow0.svg" alt="Panah" />
           </div>
         </div>
 
         <!-- Pengembangan Web Aksesibel -->
-        <div class="aksesibel-card">
-          <img class="globe-icon" src="Asset/globe-icon0.svg" alt="Ikon Web" />
-          <div class="teks-aksesibel">
-            Pengembangan Web
-            <br />
-            Aksesibel
-          </div>
-          <div class="content-aksesibel">
+        <div class="card">
+          <img class="icon" src="Asset/globe-icon0.svg" alt="Ikon Web" />
+          <div class="teks-card">Pengembangan Web Aksesibel</div>
+          <div class="content-card">
             Membuat website yang ramah dan dapat diakses oleh semua kalangan,
             termasuk pengguna dengan berbagai kebutuhan khusus.
           </div>
@@ -142,7 +128,7 @@
         </div>
       </div>
     </div>
-
   </div>
+  
 </body>
 </html>

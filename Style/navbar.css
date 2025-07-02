@@ -1,89 +1,111 @@
+/* === Navbar Styles === */
 .nav-bar {
   position: sticky;
   top: 0;
-  background: rgba(116, 183, 231);
-  padding: 20px 60px 20px 60px;
+  background: rgba(116, 183, 231); /* Biru muda transparan */
+  padding: 20px 60px;
   display: flex;
-  flex-direction: row;
-  gap: 45px;
   align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
+  justify-content: space-between;
   height: 90px;
   z-index: 1000;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
+
+/* Logo Utama */
 .main-logo {
-  flex-shrink: 0;
   width: 107px;
   height: 79px;
-  position: relative;
   object-fit: cover;
-  aspect-ratio: 107/79;
+  flex-shrink: 0;
 }
+
+/* Frame filler (optional) */
 .frame-7 {
-  padding: 10px;
-  align-self: stretch;
   flex: 1;
-  position: relative;
-  overflow: hidden;
-}
-.beranda {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.beranda:hover {
-  color: #00156b;
 }
 
-.edukasi {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.edukasi:hover {
-  color: #00156b;
+/* Menu Navigasi */
+.nav-menu {
+  display: flex;
+  gap: 45px;
 }
 
-.kisah-inspirasi {
-  color: #fffbfb;
-  text-align: left;
+/* Link Navigasi */
+.nav-link {
+  color: #ffffff;
   font-family: "Inter-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  position: relative;
-}
-.kisah-inspirasi:hover {
-  color: #00156b;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.tentang-kami {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.tentang-kami:hover {
-  color: #00156b;
+/* Hover dan Fokus */
+.nav-link:hover,
+.nav-link:focus {
+  color: #00156b; /* Warna gelap saat hover */
 }
 
-.kontak {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.kontak:hover {
+/* Highlight menu aktif (misalnya halaman Edukasi aktif) */
+.nav-link.active {
   color: #00156b;
+  font-weight: 600;
+}
+
+/* === Burger Menu Styles === */
+.burger-btn {
+  display: none; /* Sembunyikan di desktop */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.burger-line {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Responsif - Tampilkan Burger di Layar Kecil */
+@media (max-width: 992px) {
+  .main-logo {
+    width: 80px; 
+    height: 60px;
+  }
+
+  .burger-btn {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background-color: rgba(116, 183, 231, 0.95); /* Warna latar belakang dropdown */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .nav-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
 }

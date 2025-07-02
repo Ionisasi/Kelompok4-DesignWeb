@@ -12,9 +12,6 @@
   justify-content: flex-start;
   position: relative;
 }
-.edukasi {
-  color: #00156b;
-}
 .hero-section {
   display: flex;
   flex-direction: column;
