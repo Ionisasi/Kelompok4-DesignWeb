@@ -2,6 +2,9 @@
 .halaman-edukasi * {
   box-sizing: border-box;
 }
+.edukasi {
+  color: #00156b;
+}
 .halaman-edukasi {
   background: #ffffff;
   display: flex;
@@ -11,62 +14,6 @@
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
-}
-
-.main-logo {
-  flex-shrink: 0;
-  width: 107px;
-  height: 79px;
-  position: relative;
-  object-fit: cover;
-  aspect-ratio: 107/79;
-}
-.frame-7 {
-  padding: 10px;
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  overflow: hidden;
-}
-.beranda {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.edukasi {
-  color: #0a1d69;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.kisah-inspirasi {
-  color: #fffbfb;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.tentang-kami {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.kontak {
-  color: #fdf5f5;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
 }
 .frame-tittle-edukasi {
   padding: 40px 10px 0px 10px;

@@ -12,81 +12,9 @@
   position: relative;
   overflow: hidden;
 }
-.main-logo {
-  flex-shrink: 0;
-  width: 107px;
-  height: 79px;
-  position: relative;
-  object-fit: cover;
-  aspect-ratio: 107/79;
-}
-.frame-7 {
-  padding: 10px;
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  overflow: hidden;
-}
 .beranda {
-  color: #0a1d69;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.beranda:hover {
   color: #00156b;
 }
-
-.edukasi {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.edukasi:hover {
-  color: #00156b;
-}
-
-.kisah-inspirasi {
-  color: #fffbfb;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.kisah-inspirasi:hover {
-  color: #00156b;
-}
-
-.tentang-kami {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.tentang-kami:hover {
-  color: #00156b;
-}
-
-.kontak {
-  color: #fdf5f5;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.kontak:hover {
-  color: #00156b;
-}
-
 .hero-section {
   padding: 23px 202px 23px 202px;
   display: flex;
