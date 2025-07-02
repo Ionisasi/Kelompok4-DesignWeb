@@ -1,7 +1,9 @@
+/* Reset & Base Styles */
 .halaman-utama,
 .halaman-utama * {
   box-sizing: border-box;
 }
+
 .halaman-utama {
   background: #ffffff;
   display: flex;
@@ -10,484 +12,223 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  overflow: hidden;
 }
-.beranda {
+.main-logo {
+  flex-shrink: 0;
+  width: 107px;
+  height: 79px;
+  object-fit: cover;
+}
+
+.frame-7 {
+  flex: 1;
+}
+
+.beranda,
+.edukasi,
+.kisah-inspirasi,
+.tentang-kami,
+.kontak {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.beranda:hover,
+.edukasi:hover,
+.kisah-inspirasi:hover,
+.tentang-kami:hover,
+.kontak:hover {
   color: #00156b;
 }
+
+/* Hero Section */
 .hero-section {
-  padding: 23px 202px 23px 202px;
+  padding: 23px 202px;
   display: flex;
   flex-direction: column;
   gap: 6px;
   align-items: center;
   justify-content: center;
   align-self: stretch;
-  flex-shrink: 0;
   height: 507px;
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(2px);
+  text-align: center;
 }
+
 .hero-title {
   color: #00156b;
-  text-align: center;
   font-family: "Inter-Black", sans-serif;
   font-size: 64px;
   font-weight: 900;
-  position: relative;
   width: 742px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 .hero-sub {
   color: #1e1e1e;
-  text-align: center;
   font-family: "Inter-Bold", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  position: relative;
 }
+
+/* Apa yang Kami Lakukan */
 .frame-8 {
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
   justify-content: flex-start;
   align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
 }
+
 .what-we-do {
   color: #000000;
-  text-align: left;
   font-family: "Inter-Bold", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  position: relative;
 }
+
 .what-we-do-sub {
   color: #000000;
   text-align: center;
   font-family: "Inter-Regular", sans-serif;
   font-size: 32px;
   font-weight: 400;
-  position: relative;
-  align-self: stretch;
+  max-width: 800px;
 }
+
 .card-frame {
-  padding: 0px 100px 0px 100px;
+  padding: 0 100px;
   display: flex;
-  flex-direction: row;
-  gap: 50px;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  align-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-.edukasi-masyarakat-card {
-  background: #7ce1f8;
-  border-radius: 20px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
   justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  width: 515px;
-  position: relative;
-  overflow: hidden;
-}
-.icon-edukasi {
-  flex-shrink: 0;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.group {
-  width: 70.83%;
-  height: 79.17%;
-  position: absolute;
-  right: 14.58%;
-  left: 14.58%;
-  bottom: 10.42%;
-  top: 10.42%;
-  overflow: visible;
-}
-.teks-edukasi {
-  color: #000000;
-  text-align: left;
-  font-family: "Gloock-Regular", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  position: relative;
-}
-.content-edukasi {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: relative;
+  gap: 50px;
+  margin-top: 20px;
   align-self: stretch;
 }
-.frame-2 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.cek-text {
-  color: #000000;
-  text-align: left;
-  font-family: "Gloock-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: relative;
-}
-.cek-text:hover {
-  color: #00156b;
-}
-.arrow-icon {
-  flex-shrink: 0;
-  width: 29px;
-  height: 29px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.arrow {
-  flex-shrink: 0;
-  width: 29px;
-  height: 29px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.f-7-chat-bubble-2-fill {
-  flex-shrink: 0;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.arrow2 {
-  flex-shrink: 0;
-  width: 29px;
-  height: 29px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
+
+.edukasi-masyarakat-card,
 .aksesibel-card {
   background: #7ce1f8;
   border-radius: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
   justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  width: 515px;
-  position: relative;
-  overflow: hidden;
+  width: 300px;
+  min-height: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
+
+.edukasi-masyarakat-card:hover,
+.aksesibel-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-edukasi,
 .globe-icon {
-  flex-shrink: 0;
   width: 100px;
   height: 100px;
   position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
 }
+
+.teks-edukasi,
 .teks-aksesibel {
   color: #000000;
-  text-align: center;
   font-family: "Gloock-Regular", sans-serif;
   font-size: 36px;
   font-weight: 400;
-  position: relative;
 }
+
+.content-edukasi,
 .content-aksesibel {
   color: #000000;
-  text-align: center;
   font-family: "Inter-Regular", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  position: relative;
-  align-self: stretch;
 }
+
+.frame-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cek-text {
+  color: #000000;
+  font-family: "Gloock-Regular", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cek-text:hover {
+  color: #00156b;
+}
+
+.arrow,
+.arrow2 {
+  width: 29px;
+  height: 29px;
+}
+
+/* Footer */
 .footer {
   background: #0a1d69;
-  padding: 50px 100px 50px 100px;
+  padding: 50px 100px;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 20px;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   align-self: stretch;
-  flex-shrink: 0;
-  height: 355px;
-  position: relative;
-  overflow: hidden;
+  height: auto;
 }
+
 .frame-4 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
   width: 314px;
-  height: 290px;
-  position: relative;
-  overflow: hidden;
 }
+
 .alamat-dan-kontak {
   color: #ffffff;
-  text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 32px;
   font-weight: 400;
-  position: relative;
 }
-.alamat-frame {
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.mdi-location {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.tempat {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-  flex: 1;
-}
-.no-hp-1-frame {
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.mynaui-telephone-solid {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.nomor-hp-1 {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-}
-.no-hp-2-frame {
-  padding: 0px 10px 0px 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 304px;
-  position: relative;
-}
-.mynaui-telephone-solid2 {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
-}
-.nomor-hp-2 {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: relative;
-}
+
+.alamat-frame,
+.no-hp-1-frame,
+.no-hp-2-frame,
 .frame-5 {
-  padding: 0px 10px 0px 10px;
   display: flex;
-  flex-direction: row;
-  gap: 10px;
   align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
+  gap: 10px;
+  padding: 4px 10px;
 }
-.ic-baseline-email {
-  flex-shrink: 0;
+
+.mynaui-telephone-solid,
+.mynaui-telephone-solid2,
+.ic-baseline-email,
+.mdi-location {
   width: 40px;
   height: 40px;
-  position: relative;
-  overflow: visible;
-  aspect-ratio: 1;
 }
+
+.tempat,
+.nomor-hp-1,
+.nomor-hp-2,
 .email {
   color: #ffffff;
-  text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  position: relative;
-}
-@media (max-width: 1200px) {
-  .hero-title {
-    font-size: 48px;
-    width: 100%;
-    max-width: 600px;
-  }
-  .hero-section {
-    padding: 23px 40px;
-    height: auto;
-  }
-  .card-frame {
-    padding: 0 40px;
-    gap: 30px;
-  }
-  .footer {
-    padding: 50px 40px;
-  }
-}
-
-@media (max-width: 900px) {
-  .hero-title {
-    font-size: 36px;
-    max-width: 100%;
-  }
-  .hero-sub,
-  .what-we-do {
-    font-size: 28px;
-  }
-  .what-we-do-sub {
-    font-size: 22px;
-  }
-  .card-frame {
-    flex-direction: column;
-    gap: 24px;
-    padding: 0 10px;
-  }
-  .edukasi-masyarakat-card,
-  .aksesibel-card {
-    width: 100%;
-    max-width: 400px;
-  }
-  .footer {
-    flex-direction: column;
-    height: auto;
-    padding: 30px 10px;
-  }
-  .frame-4 {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .hero-section {
-    padding: 16px 5vw;
-    height: 300px;
-  }
-  .hero-title {
-    font-size: 24px;
-    padding: 0 5vw;
-  }
-  .hero-sub {
-    font-size: 18px;
-  }
-  .what-we-do {
-    font-size: 20px;
-  }
-  .what-we-do-sub {
-    font-size: 16px;
-  }
-  .edukasi-masyarakat-card,
-  .aksesibel-card {
-    font-size: 16px;
-    max-width: 100%;
-    padding: 10px 5vw;
-  }
-  .teks-edukasi,
-  .teks-aksesibel {
-    font-size: 20px;
-  }
-  .content-edukasi,
-  .content-aksesibel {
-    font-size: 14px;
-  }
-  .footer {
-    padding: 20px 5vw;
-    height: auto;
-  }
-  .alamat-dan-kontak {
-    font-size: 18px;
-  }
-  .alamat-frame,
-  .no-hp-1-frame,
-  .no-hp-2-frame,
-  .frame-5 {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    padding: 0;
-  }
-  .mdi-location,
-  .mynaui-telephone-solid,
-  .mynaui-telephone-solid2,
-  .ic-baseline-email {
-    width: 24px;
-    height: 24px;
-  }
-  .tempat,
-  .nomor-hp-1,
-  .nomor-hp-2,
-  .email {
-    font-size: 12px;
-  }
 }
