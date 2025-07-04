@@ -1,0 +1,149 @@
+.halaman-kontak,
+.halaman-kontak * {
+  box-sizing: border-box;
+}
+.halaman-kontak {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 829px;
+  position: relative;
+}
+.frame-map {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.main-container {
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 443px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 314px;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+}
+.tittle {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.list-container {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.list-item {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.img-location {
+  flex-shrink: 0;
+  width: auto;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 4.5 / 3;
+}
+/* Styling untuk container form */
+.frame-kritik-dan-saran {
+  width: 100%;
+  background-color: #f9f9f9; /* Warna latar belakang lembut */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+}
+/* Label form */
+.form-label {
+  font-size: 14px;
+  font-family: "Inter-Regular", sans-serif;
+  color: #333333;
+  margin-bottom: 6px;
+  display: block;
+}
+/* Input dan textarea */
+.form-control {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Untuk textarea */
+.form-control[type="textarea"] {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Tombol submit */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
