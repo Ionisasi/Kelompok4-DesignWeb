@@ -1,0 +1,54 @@
+.halaman-utama,
+.halaman-utama * {
+  box-sizing: border-box;
+}
+.halaman-utama {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;;
+}
+hr {
+  border: none;
+  height: 3px;
+  background-color: #555;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+menu,
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.konten {
+  padding: 0 40px 40px 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.konten p {
+  flex: 1;
+  text-align: left;
+  background-color: rgb(157, 201, 97, 0.60);
+  padding: 15px;
+  border-radius: 8px;
+}
+.konten img {
+  width: 650px;
+  height: 500px;
+  border-radius: 15px; /* Gambar ujung tumpul */
+}
