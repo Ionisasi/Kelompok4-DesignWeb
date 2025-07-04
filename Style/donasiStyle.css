@@ -1,0 +1,149 @@
+.halaman-donasi,
+.halaman-donasi * {
+  box-sizing: border-box;
+}
+
+.halaman-donasi {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.donasi-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.hero-donasi {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px ;
+}
+
+.judul-donasi {
+  color: #00156b;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.sub-donasi {
+  color: #1e1e1e;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.qr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.qr-code img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.btn-bayar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-bayar:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1200px) {
+  .hero-donasi {
+    max-width: 650px;
+    font-size: 42px;
+  }
+  .judul-donasi {
+    font-size: 40px;
+  }
+  .sub-donasi {
+    font-size: 20px;
+  }
+  .qr-section {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .donasi-container {
+    padding: 40px 10px;
+  }
+  .hero-donasi {
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  .judul-donasi {
+    font-size: 32px;
+  }
+  .sub-donasi {
+    font-size: 18px;
+  }
+  .qr-section {
+    padding: 18px;
+    gap: 14px;
+  }
+  .qr-code img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .donasi-container {
+    padding: 20px 5px;
+  }
+  .hero-donasi {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .judul-donasi {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+  .sub-donasi {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .qr-section {
+    padding: 10px;
+    gap: 8px;
+    border-radius: 10px;
+  }
+  .qr-code img {
+    width: 200px;
+    height: 200px;
+  }
+  .btn-bayar {
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 7px;
+  }
+}

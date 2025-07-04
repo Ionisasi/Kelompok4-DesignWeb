@@ -2,9 +2,6 @@
 .halaman-edukasi * {
   box-sizing: border-box;
 }
-.edukasi {
-  color: #00156b;
-}
 .halaman-edukasi {
   background: #ffffff;
   display: flex;

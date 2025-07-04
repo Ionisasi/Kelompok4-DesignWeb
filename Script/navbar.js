@@ -1,3 +1,4 @@
+//navbar.js
 const currentPage = location.pathname.split('/').pop();
 
 document.write(`
@@ -9,6 +10,7 @@ document.write(`
       <a href="edukasi.html" class="nav-link ${currentPage === 'edukasi.html' ? 'active' : ''}">Edukasi</a>
       <a href="kisahInspirasiIrma.html" class="nav-link ${currentPage === 'kisahInspirasiIrma.html' ? 'active' : ''}">Kisah Inspirasi</a>
       <a href="about.html" class="nav-link ${currentPage === 'about.html' ? 'active' : ''}">Tentang Kami</a>
+      <a href="donasi.html" class="nav-link ${currentPage === 'donasi.html' ? 'active' : ''}">Donasi</a>
       <a href="kontak.html" class="nav-link ${currentPage === 'kontak.html' ? 'active' : ''}">Kontak</a>
     </menu>
     <button class="burger-btn">
