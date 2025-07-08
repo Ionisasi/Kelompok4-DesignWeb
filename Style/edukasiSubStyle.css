@@ -31,6 +31,11 @@
   font-size: 128px;
   font-weight: 700;
   position: relative;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.hero-title:hover {
+  color: rgba(116, 183, 231);
+  transition: color 0.3s ease-in-out;
 }
 .content-section {
   padding: 20px 50px 20px 50px;

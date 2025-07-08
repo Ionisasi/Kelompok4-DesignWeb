@@ -1,0 +1,45 @@
+/* Tombol melayang */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.floating-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Menu dropdown aksesibilitas */
+.floating-menu {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 9998;
+}
+
+.floating-menu button {
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
