@@ -1,8 +1,8 @@
-.halaman-edukasi,
-.halaman-edukasi * {
+.halaman-menu,
+.halaman-menu * {
   box-sizing: border-box;
 }
-.halaman-edukasi {
+.halaman-menu {
   background: #ffffff;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   padding-bottom: 10px;
 }
 
-.frame-tittle-edukasi {
+.frame-tittle-menu {
   padding: 40px 100px;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   justify-content: center;
   width: 100%;
 }
-.tittle-edukasi {
+.tittle-menu {
   color: #000000;
   text-align: center;
   font-family: "Inter-ExtraBold", sans-serif;
@@ -126,13 +126,13 @@
   .card {
     width: 100%;
   }
-  .tittle-edukasi {
+  .tittle-menu {
     font-size: 24px;
   }
 }
 
 @media (max-width: 600px) {
-  .frame-tittle-edukasi {
+  .frame-tittle-menu {
     padding: 20px 10px;
   }
   .list {
@@ -144,7 +144,7 @@
     font-size: 16px;
     height: auto;
   }
-  .tittle-edukasi {
+  .tittle-menu {
     font-size: 18px;
   }
   .card-title {
